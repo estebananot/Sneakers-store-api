@@ -1,0 +1,14 @@
+# Ignorar archivos generados por el sistema
+.DS_Store
+Thumbs.db
+
+# Ignorar directorios
+node_modules/
+dist/
+
+# Ignorar archivos con una extensión específica
+*.log
+*.tmp
+
+# Ignorar archivos que contienen información sensible (por ejemplo, el archivo .env)
+.env
